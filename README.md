@@ -34,7 +34,7 @@ ransomware-troll/
 ├── [README.md](README.md)                         # Documentação principal do projeto
 └── [LICENSE](LICENSE)                             # Licença do projeto
 
-
+```
 ---
 
 ## **Como Usar o Projeto**  
@@ -44,7 +44,7 @@ ransomware-troll/
 2. Biblioteca `pyaes` instalada. Para instalar, execute o comando:  
    ```bash
    pip install pyaes
-   ```  
+     
 ### **Após pré-requisitos serem cumpridos**
 1. Clone este repositório para o seu computador.
 2. Instale as dependências (caso não tenha instalado) - (biblioteca `pyaes`).

@@ -1,0 +1,64 @@
+# Documentação Técnica dos Scripts
+
+Este diretório contém os dois scripts principais do projeto **Ransomware Troll**: o `encrypter.py` e o `decrypter.py`. 
+Cada um deles desempenha um papel específico no processo de criptografia e descriptografia de arquivos.
+
+---
+
+## **1. Encrypter.py**
+### Descrição
+O script `encrypter.py` é responsável por criptografar arquivos utilizando o algoritmo AES (Advanced Encryption Standard) no modo CTR (Counter Mode). 
+Ele lê um arquivo de texto, aplica a criptografia e salva o resultado em um novo arquivo com a extensão `.ransomwaretrollhahaha`.
+
+### Fluxo de Funcionamento
+1. **Configuração da chave AES**:  
+   - Uma chave de 16 caracteres é usada para a criptografia.  
+   - Essa chave deve ser mantida em segredo para que a descriptografia seja possível.
+
+2. **Leitura do arquivo original**:  
+   - O script abre o arquivo alvo (ex.: `TESTE.TXT`) em modo de leitura binária (`rb`).
+
+3. **Criptografia**:  
+   - O conteúdo do arquivo é criptografado usando a biblioteca `pyaes`.
+
+4. **Criação do arquivo criptografado**:  
+   - O script salva o resultado em um arquivo novo com a extensão `.ransomwaretrollhahaha`.
+
+5. **Remoção do arquivo original**:  
+   - O arquivo original é excluído para simular o comportamento de um ransomware.
+
+### Código Principal
+Veja o script completo no arquivo [encrypter.py](https://github.com/Vifernandestech/Criando-um-ransomware-em-Python/blob/main/src/encrypter.py).
+
+---
+
+## **2. Decrypter.py**
+### Descrição
+O script `decrypter.py` reverte a criptografia aplicada pelo `encrypter.py`. 
+Ele usa a mesma chave AES para descriptografar o arquivo criptografado e recriar o arquivo original.
+
+### Fluxo de Funcionamento
+1. **Configuração da chave AES**:  
+   - A mesma chave de 16 caracteres usada na criptografia é configurada para a descriptografia.
+
+2. **Leitura do arquivo criptografado**:  
+   - O script abre o arquivo criptografado (ex.: `TESTE.TXT.ransomwaretrollhahaha`) em modo de leitura binária (`rb`).
+
+3. **Descriptografia**:  
+   - O conteúdo do arquivo criptografado é revertido para o texto original usando a biblioteca `pyaes`.
+
+4. **Criação do arquivo descriptografado**:  
+   - O script salva o resultado no arquivo original (ex.: `TESTE.TXT`).
+
+5. **Remoção do arquivo criptografado**:  
+   - O arquivo criptografado é excluído para liberar espaço.
+
+### Código Principal
+Veja o script completo no arquivo [decrypter.py](https://github.com/Vifernandestech/Criando-um-ransomware-em-Python/blob/main/src/decrypter.py).
+
+---
+
+## Dependências
+Ambos os scripts dependem da biblioteca `pyaes`. Para instalá-la, execute o seguinte comando:
+```bash
+pip install pyaes

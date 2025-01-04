@@ -54,7 +54,7 @@ Ele usa a mesma chave AES para descriptografar o arquivo criptografado e recriar
    - O arquivo criptografado é excluído para liberar espaço.
 
 ### Código Principal
-Veja o script completo no arquivo [decrypter.py](https://github.com/Vifernandestech/Criando-um-ransomware-em-Python/blob/main/src/decrypter.py).
+Veja o script completo no arquivo [decrypter.py](https://github.com/Vifernandestech/Criando-um-ransomware-em-Python/blob/main/src/decrypter.py)
 
 ---
 

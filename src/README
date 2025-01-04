@@ -28,7 +28,7 @@ Ele lê um arquivo de texto, aplica a criptografia e salva o resultado em um nov
    - O arquivo original é excluído para simular o comportamento de um ransomware.
 
 ### Código Principal
-Veja o script completo no arquivo [encrypter.py](https://github.com/Vifernandestech/Criando-um-ransomware-em-Python/blob/main/src/encrypter.py).
+Veja o script completo no arquivo **encrypter.py** 
 
 ---
 
@@ -54,8 +54,7 @@ Ele usa a mesma chave AES para descriptografar o arquivo criptografado e recriar
    - O arquivo criptografado é excluído para liberar espaço.
 
 ### Código Principal
-Veja o script completo no arquivo [decrypter.py](https://github.com/Vifernandestech/Criando-um-ransomware-em-Python/blob/main/src/decrypter.py)
-
+Veja o script completo no arquivo **decrypter.py**
 ---
 
 ## Dependências

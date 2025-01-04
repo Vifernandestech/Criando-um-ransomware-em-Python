@@ -1,4 +1,4 @@
-# Criando um Ransomware Troll comn Python 
+# Criando um Ransomware Troll com Python 
 
 ## Descrição
 Este projeto é uma demonstração prática de como um ransomware funciona. 

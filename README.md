@@ -17,7 +17,7 @@ Este projeto foi desenvolvido como parte do **Bootcamp Santander Cibersegurança
 ## **Estrutura do Projeto**
 
 ```plaintext
-ransomware-troll/
+Criando-um-ransomware-em-Python/
 ├── src/
 │   ├── [encrypter.py](src/encrypter.py)   # Script para criptografia
 │   ├── [decrypter.py](src/decrypter.py)   # Script para descriptografia

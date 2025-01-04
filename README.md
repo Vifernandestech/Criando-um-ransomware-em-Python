@@ -60,7 +60,10 @@ Este projeto está licenciado sob a **MIT License**. Consulte o arquivo [LICENSE
 
 **Desenvolvedor:**  
 [Vitor Fernandes da Silva](https://github.com/Vifernandestech)
+
 [LinkedIn](https://www.linkedin.com/in/vifernandescybersec/)
-Aluno de Segurança Cibernética - Senac São Paulo  
+
+Aluno de Segurança Cibernética - Senac São Paulo 
+
 Bootcamp Santander Cibersegurança #2 - DIO  
 

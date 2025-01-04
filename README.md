@@ -49,11 +49,11 @@ ransomware-troll/
 ## **Capturas de Tela**  
 Veja abaixo exemplos do projeto em execução:  
 
-- **Criptografia com o `encrypter.py`**  
-  ![Criptografia](..assets/screenshots/06 - Resultado Arquivo TESTE.TXT criptografado.png)  
+### **Criptografia com o `encrypter.py`**  
+![Criptografia](./assets/screenshots/06-Resultado-Arquivo-TESTE-TXT-criptografado.png)  
 
-- **Descriptografia com o `decrypter.py`**  
-  ![Descriptografia](..assets/screenshots/08 - Arquivo TEXTE.TXT descriptografado.png)  
+### **Descriptografia com o `decrypter.py`**  
+![Descriptografia](./assets/screenshots/08-Arquivo-TESTE-TXT-descriptografado.png)  
 
 ---
 

@@ -7,6 +7,7 @@
 ## **Resumo**
 Este projeto demonstra como funciona um ransomware utilizando Python, com foco em **aprendizado** e **pesquisa em cibersegurança**. 
 Ele implementa criptografia AES para proteger arquivos, permitindo compreender o funcionamento básico de malwares de criptografia, tudo dentro de um contexto ético e educativo.
+Este projeto foi desenvolvido como parte do **Bootcamp Santander Cibersegurança #2** na plataforma **DIO**.
 
 ⚠️ **Aviso:** Este projeto é **exclusivamente para fins educativos** e foi desenvolvido como parte do **Bootcamp Santander Cibersegurança #2** na plataforma **DIO**. 
 **Não utilize este código para atividades maliciosas!**
@@ -58,7 +59,8 @@ Este projeto está licenciado sob a **MIT License**. Consulte o arquivo [LICENSE
 ---
 
 **Desenvolvedor:**  
-[Vitor Fernandes da Silva](https://github.com/Vifernandestech)  
-Aluno de Cibersegurança - Senac São Paulo  
+[Vitor Fernandes da Silva](https://github.com/Vifernandestech)
+[LinkedIn](https://www.linkedin.com/in/vifernandescybersec/)
+Aluno de Segurança Cibernética - Senac São Paulo  
 Bootcamp Santander Cibersegurança #2 - DIO  
 

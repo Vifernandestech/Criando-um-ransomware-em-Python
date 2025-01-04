@@ -11,7 +11,13 @@ Não use este código para atividades maliciosas!
 - `src/`: Contém os scripts de criptografia (`encrypter.py`) e descriptografia (`decrypter.py`).
 - `assets/`: Capturas de tela (Screenshots) do projeto funcionando.
 
-## Como Usar
+## Como Usar o Projeto
+### Pré-requisitos:
+- Python 3 instalado no seu computador.
+- Biblioteca `pyaes` instalada. Para instalar, execute:
+  ```bash
+  pip install pyaes
+  
 1. Clone este repositório para o seu computador.
 2. Instale as dependências (biblioteca `pyaes`).
 3. Execute o `encrypter.py` para criptografar arquivos.
